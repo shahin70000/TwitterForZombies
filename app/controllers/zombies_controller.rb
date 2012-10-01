@@ -2,7 +2,7 @@ class ZombiesController < ApplicationController
   # GET /zombies
   # GET /zombies.json
   def index
-    @zombies = Zombie.all
+    @zombies = Zombie.includes(:brain).all
 
 #    @rotting_zombies = Zombie.rotting
 #    @fresh_zombies = Zombie.fresh

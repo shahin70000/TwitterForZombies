@@ -1,6 +1,6 @@
 class Zombie < ActiveRecord::Base
   has_one :brain, dependent: :destroy
-  attr_accessible :bio, :name
+  attr_accessible :bio, :name, :brain
 
 
 #  before_save :make_rotting

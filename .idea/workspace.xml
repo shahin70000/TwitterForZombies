@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56098178-70c2-4918-92ea-25090119d554" name="Default" comment="" />
+    <list default="true" id="56098178-70c2-4918-92ea-25090119d554" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/zombies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/zombies_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/zombie.rb" afterPath="$PROJECT_DIR$/app/models/zombie.rb" />
+    </list>
     <ignored path="TwitterForZombies.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20121001185200_add_email_and_rotting_to_zombies.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20121001185200_add_email_and_rotting_to_zombies.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20121001185200_add_email_and_rotting_to_zombies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="59" selection-start="173" selection-end="173" vertical-scroll-proportion="0.06007067">
+            <state line="3" column="59" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +61,34 @@
       <file leaf-file-name="zombies_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/zombies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="31" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zombie.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/zombie.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="27" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brain.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/brain.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20121001193942_create_brains.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20121001193942_create_brains.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="0.18021202">
               <folding />
             </state>
           </provider>
@@ -79,6 +109,9 @@
       <list>
         <option value="$PROJECT_DIR$/db/migrate/20121001185200_add_email_and_rotting_to_zombies.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20121001185845_remove_age_from_zombies.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/zombies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/zombie.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121001193942_create_brains.rb" />
       </list>
     </option>
   </component>
@@ -190,6 +223,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterForZombies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterForZombies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,13 +486,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/zombies_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20121001182441_create_zombies.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -472,7 +516,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20121001185200_add_email_and_rotting_to_zombies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="173" selection-end="173" vertical-scroll-proportion="0.06007067">
+        <state line="3" column="59" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/zombies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/zombie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/brain.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121001193942_create_brains.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="0.18021202">
           <folding />
         </state>
       </provider>

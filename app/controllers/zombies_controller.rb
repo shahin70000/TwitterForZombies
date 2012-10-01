@@ -4,6 +4,12 @@ class ZombiesController < ApplicationController
   def index
     @zombies = Zombie.all
 
+    @rotting_zombies = Zombie.rotting
+    @fresh_zombies = Zombie.fresh
+    @recent_zombies = Zombie.recent
+    @five_rotting_zombies = Zombie.rotting.limit(5)
+    @recent_rotting_zombies = Zombie.recent.rotting
+    @recent_fresh_rotting_zombies = Zombie.recent.fresh.rotting
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @zombies }

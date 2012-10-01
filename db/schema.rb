@@ -11,7 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121001211203) do
+ActiveRecord::Schema.define(:version => 20121001211835) do
+
+  create_table "assignments", :force => true do |t|
+    t.integer "zombie_id"
+    t.integer "role_id"
+  end
+
+  add_index "assignments", ["role_id"], :name => "index_assignments_on_role_id"
+  add_index "assignments", ["zombie_id"], :name => "index_assignments_on_zombie_id"
 
   create_table "brains", :force => true do |t|
     t.integer  "zombie_id"

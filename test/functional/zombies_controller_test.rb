@@ -18,7 +18,7 @@ class ZombiesControllerTest < ActionController::TestCase
 
   test "should create zombie" do
     assert_difference('Zombie.count') do
-      post :create, zombie: { age: @zombie.age, bio: @zombie.bio, name: @zombie.name }
+      post :create, zombie: { bio: @zombie.bio, name: @zombie.name }
     end
 
     assert_redirected_to zombie_path(assigns(:zombie))
@@ -35,7 +35,7 @@ class ZombiesControllerTest < ActionController::TestCase
   end
 
   test "should update zombie" do
-    put :update, id: @zombie, zombie: { age: @zombie.age, bio: @zombie.bio, name: @zombie.name }
+    put :update, id: @zombie, zombie: { bio: @zombie.bio, name: @zombie.name }
     assert_redirected_to zombie_path(assigns(:zombie))
   end
 

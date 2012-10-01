@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121001193942) do
+ActiveRecord::Schema.define(:version => 20121001211203) do
 
   create_table "brains", :force => true do |t|
     t.integer  "zombie_id"
@@ -22,6 +22,15 @@ ActiveRecord::Schema.define(:version => 20121001193942) do
   end
 
   add_index "brains", ["zombie_id"], :name => "index_brains_on_zombie_id"
+
+  create_table "roles", :force => true do |t|
+    t.string   "name"
+    t.string   "string"
+    t.string   "level"
+    t.string   "rank"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "zombies", :force => true do |t|
     t.string   "name"
